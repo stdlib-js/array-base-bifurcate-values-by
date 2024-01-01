@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Split element values into two groups according to an predicate function.
+> Split element values into two groups according to a predicate function.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -73,7 +73,7 @@ var bifurcateValuesBy = require( '@stdlib/array-base-bifurcate-values-by' );
 
 #### bifurcateValuesBy( x, predicate\[, thisArg] )
 
-Splits element values into two groups according to an predicate function.
+Splits element values into two groups according to a predicate function.
 
 ```javascript
 function predicate( v ) {
@@ -86,7 +86,7 @@ var out = bifurcateValuesBy( x, predicate );
 // returns [ [ 'beep', 'boop', 'bar' ], [ 'foo' ] ]
 ```
 
-An `predicate` function is provided the following arguments:
+A `predicate` function is provided the following arguments:
 
 -   **value**: current array element.
 -   **index**: current array element index.
