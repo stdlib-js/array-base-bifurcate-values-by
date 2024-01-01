@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@deno/mod.js';
+import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@v0.0.0-deno/mod.js';
 ```
 
 #### bifurcateValuesBy( x, predicate\[, thisArg] )
@@ -119,7 +119,7 @@ var cnt = context.count;
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-take@deno/mod.js';
-import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@deno/mod.js';
+import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@v0.0.0-deno/mod.js';
 
 function predicate( v ) {
     // Use the first letter of each element to define groups:
