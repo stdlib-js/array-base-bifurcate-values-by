@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-bifurcate-values-by/tags). For example,
+
+```javascript
 import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@v0.1.0-esm/index.mjs';
 ```
 
@@ -124,7 +129,7 @@ var cnt = context.count;
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-take@esm/index.mjs';
-import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@v0.1.0-esm/index.mjs';
+import bifurcateValuesBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-bifurcate-values-by@esm/index.mjs';
 
 function predicate( v ) {
     // Use the first letter of each element to define groups:
